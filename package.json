@@ -1,8 +1,8 @@
 {
-  "name": "shadepro-next",
-  "description": "ShadePro NextJS with Bootstrap 4, Styled Components, Slick Carousel, React Headroom, etc",
-  "version": "1.0.0",
-  "author": "grayic",
+  "name": "generation-effect-next",
+  "description": "Ge NextJS with Bootstrap 4, Styled Components, Slick Carousel, React Headroom, etc",
+  "version": "0.1",
+  "author": "Silen",
   "private": true,
   "scripts": {
     "dev": "next dev",
