@@ -20,16 +20,16 @@ const Hero = () => {
               <Col lg="6" md="8">
                 <div className="hero-content pr-xl-16 pt-18 pt-lg-31 pb-md-18 pb-lg-30 mb-9 mb-md-0">
                   <h6 className="gr-text-12 text-uppercase mb-8">
-                    Not another zoom for you!
+                    The ultimate way to learn!
                   </h6>
-                  <h1 className="title gr-text-2 mb-8">Start. Join. Meet.</h1>
+                  <h1 className="title gr-text-2 mb-8">Generation Effect</h1>
                   <p className="gr-text-8 mb-0">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next consultancy website within
-                    few minutes.
+                    Leverage the way your brain was built to maximize information retention.
+                    Learn from a Google engineer who quit her job to pursue education.
+                  
                   </p>
                   <Button variant="success" className=" mt-11">
-                    Start my meeting
+                    Join now
                   </Button>
                 </div>
               </Col>

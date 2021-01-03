@@ -37,10 +37,9 @@ const Content = () => {
             </Col>
             <Col xs="10" lg="6" xl="5" className="pr-lg-15 order-lg-1">
               <div className="section-title content-text mb-13 mb-lg-15">
-                <h2 className="title gr-text-4 mb-6">Meetings from anywhere</h2>
+                <h2 className="title gr-text-4 mb-6">Taught by a Google engineer</h2>
                 <p className="gr-text-8 pr-lg-12 mb-0">
-                  We share common trends and strategies for improving your
-                  rental income.
+                  Hailey joined Google in 2016 as a self-taught developer. She left to pursue her passion of teaching and spreading her methods.
                 </p>
               </div>
               <div className="content-widget">
@@ -53,11 +52,10 @@ const Content = () => {
                   >
                     <div className="single-widget mb-11">
                       <h3 className="w-title gr-text-7 mb-4">
-                        Control everything from Mobile
+                        Optimized for your goals
                       </h3>
                       <p className="gr-text-9 mb-0">
-                        With lots of unique blocks, you can easily build a page
-                        without coding.{" "}
+                        Whether you are looking for a career change, or just picking up a useful skill this course is for you.{" "}
                       </p>
                     </div>
                   </Col>
@@ -69,11 +67,10 @@ const Content = () => {
                   >
                     <div className="single-widget mb-11">
                       <h3 className="w-title gr-text-7 mb-4">
-                        Powerful IOS &amp; Android App
+                        Get a job/career change
                       </h3>
                       <p className="gr-text-9 mb-0">
-                        With lots of unique blocks, you can easily build a page
-                        without coding.{" "}
+                        Learn how to prepare and ace your programming interview!{" "}
                       </p>
                     </div>
                   </Col>

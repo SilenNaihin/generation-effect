@@ -1,36 +1,33 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/landing1/Hero";
-import Services from "../sections/landing1/Services";
-import Testimonial1 from "../sections/landing1/Testimonial1";
-import Content1 from "../sections/landing1/Content1";
-import Fact from "../sections/landing1/Fact";
-import Feature from "../sections/landing1/Feature";
-import CTA1 from "../sections/landing1/CTA1";
-import CaseStudies from "../sections/landing1/CaseStudies";
-import Testimonial2 from "../sections/landing1/Testimonial2";
-import CTA2 from "../sections/landing1/CTA2";
+import Hero from "../sections/landing7/Hero";
+import Rating from "../sections/landing7/Rating";
+import Content1 from "../sections/landing7/Content1";
+import Content2 from "../sections/landing7/Content2";
+import Content3 from "../sections/landing7/Content3";
+import Pricing from "../sections/landing7/Pricing";
 
-const IndexPage = () => {
+const VideoConference = () => {
   return (
     <>
       <PageWrapper
+        headerConfig={{
+          align: "right",
+          isFluid: true,
+          button: "account", // cta, account, null
+        }}
         footerConfig={{
           style: "style1", //style1, style2
         }}
       >
         <Hero />
-        <Services />
-        <Testimonial1 />
+        <Rating />
         <Content1 />
-        <Fact />
-        <Feature />
-        <CTA1 />
-        <CaseStudies />
-        <Testimonial2 />
-        <CTA2 />
+        <Content2 />
+        <Content3 />
+        <Pricing />
       </PageWrapper>
     </>
   );
 };
-export default IndexPage;
+export default VideoConference;

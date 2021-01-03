@@ -30,10 +30,9 @@ const Content = () => {
             </Col>
             <Col xs="11" lg="6" xl="5" className="pl-lg-15">
               <div className="section-title content-text mb-13 mb-lg-15">
-                <h2 className="title gr-text-4 mb-6">Easy to control</h2>
+                <h2 className="title gr-text-4 mb-6">Maximize learning</h2>
                 <p className="gr-text-8 pr-lg-12 mb-0">
-                  We share common trends and strategies for improving your
-                  rental income.
+                  There is new research about the science behind how we learn.
                 </p>
               </div>
               <div className="content-widget">
@@ -46,11 +45,10 @@ const Content = () => {
                   >
                     <div className="single-widget mb-11">
                       <h3 className="w-title gr-text-7 mb-4">
-                        Project Based Groups
+                        Guided by principles
                       </h3>
                       <p className="gr-text-9 mb-0">
-                        With lots of unique blocks, you can easily build a page
-                        without coding.{" "}
+                        Each exercise is designed to optimally utilize a learning principle.{" "}
                       </p>
                     </div>
                   </Col>
@@ -62,11 +60,10 @@ const Content = () => {
                   >
                     <div className="single-widget mb-11">
                       <h3 className="w-title gr-text-7 mb-4">
-                        Unlimited Video Meetings
+                        Not just a course
                       </h3>
                       <p className="gr-text-9 mb-0">
-                        With lots of unique blocks, you can easily build a page
-                        without coding.{" "}
+                        Receive feedback and grades directly from the professor. Or even hop into her office hours!{" "}
                       </p>
                     </div>
                   </Col>
