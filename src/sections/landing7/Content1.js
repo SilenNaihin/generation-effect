@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import imgC1 from "../../assets/image/conference/jpg/content-1-img.jpg";
-import imgCR from "../../assets/image/conference/png/content-1-round.png";
+// import imgC1 from "../../assets/image/conference/jpg/content-1-img.jpg";
+import imgC1 from "../../assets/image/conference/png/Welcome-Screen.svg";
+import imgCR from "../../assets/image/conference/png/content-1-round.svg";
 
 const Content = () => {
   return (
@@ -16,7 +17,7 @@ const Content = () => {
                 <img
                   src={imgC1}
                   alt=""
-                  className="w-100 w-sm-auto rounded-10 shadow-8 position-relative gr-z-index-1"
+                  className="w-100 rounded-10 shadow-8 position-relative gr-z-index-1"
                 />
                 <div
                   className="gr-abs-tl-custom-3"
@@ -30,9 +31,9 @@ const Content = () => {
             </Col>
             <Col xs="11" lg="6" xl="5" className="pl-lg-15">
               <div className="section-title content-text mb-13 mb-lg-15">
-                <h2 className="title gr-text-4 mb-6">Maximize learning</h2>
+                <h2 className="title gr-text-4 mb-6">Computer programming is taught wrong</h2>
                 <p className="gr-text-8 pr-lg-12 mb-0">
-                  There is new research about the science behind how we learn.
+                  There is new research about the optimal way to learn.
                 </p>
               </div>
               <div className="content-widget">
@@ -48,7 +49,7 @@ const Content = () => {
                         Guided by principles
                       </h3>
                       <p className="gr-text-9 mb-0">
-                        Each exercise is designed to optimally utilize a learning principle.{" "}
+                        The course is designed to maximize learning through using different learning principles.{" "}
                       </p>
                     </div>
                   </Col>
@@ -60,10 +61,10 @@ const Content = () => {
                   >
                     <div className="single-widget mb-11">
                       <h3 className="w-title gr-text-7 mb-4">
-                        Not just a course
+                        Optimized for your goals
                       </h3>
                       <p className="gr-text-9 mb-0">
-                        Receive feedback and grades directly from the professor. Or even hop into her office hours!{" "}
+                        Whether you are looking to pick up a crucial skill or are looking for a career change this course is perfect for you.{" "}
                       </p>
                     </div>
                   </Col>

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import bgHero from "../../assets/image/conference/jpg/hero-bg.jpg";
-import imgHero from "../../assets/image/conference/png/hero-main.png";
+import bgHero from "../../assets/image/conference/png/hero-bg.svg";
+import imgHero from "../../assets/image/conference/png/hero-main.svg";
 
 const Hero = () => {
   return (
@@ -28,7 +28,7 @@ const Hero = () => {
                     Learn from a Google engineer who quit her job to pursue education.
                   
                   </p>
-                  <Button variant="success" className=" mt-11">
+                  <Button variant="hero" className=" mt-11">
                     Join now
                   </Button>
                 </div>

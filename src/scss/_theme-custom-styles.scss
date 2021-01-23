@@ -13,7 +13,14 @@ button {
   background-position: center;
   background-size: cover;
 }
-
+.google-img {
+  height: calc(1.5rem + 3vw);
+  width: auto;
+}
+.content2pic{
+  max-width: 125%;
+  margin-left: -6vw;
+}
 .bg-image-right {
   background-repeat: no-repeat;
   background-position: right;

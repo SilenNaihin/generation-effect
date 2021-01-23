@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
-import imgC3 from "../../assets/image/conference/png/content-3-img.png";
-import imgCD from "../../assets/image/conference/png/fill-dot-red.png";
-import imgCR from "../../assets/image/conference/png/content-3-round.png";
+import imgC3 from "../../assets/image/conference/png/content-3-img.svg";
+import imgCD from "../../assets/image/conference/png/fill-dot-red.svg";
+import imgCR from "../../assets/image/conference/png/content-3-round.svg";
 
 const Content = () => {
   return (
@@ -16,7 +16,7 @@ const Content = () => {
             <Col sm="10" lg="6" className="mb-9 mb-lg-0">
               <div className="content-image position-relative gr-z-index-1">
                 <img
-                  src={imgC3}
+                  src={imgC3} // outline + feedback
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="800"
@@ -24,7 +24,7 @@ const Content = () => {
                 />
                 <div className="img-1 gr-abs-tl-custom-4">
                   <img
-                    src={imgCD}
+                    src={imgCD} 
                     alt=""
                     data-aos="fade-down"
                     data-aos-duration="800"
@@ -47,16 +47,15 @@ const Content = () => {
             <Col sm="10" lg="6" xl="5">
               <div className="content-text pl-lg-10">
                 <h2 className="gr-text-4 mb-9">
-                  Manage team without <br className="d-none d-lg-block" />
-                  leaving your room.
+                Instructed by a self-taught <br className="d-none d-lg-block" />
+                Google programmer
                 </h2>
                 <p className="gr-text-8 mb-0">
-                  We share common trends and strategies for improving your
-                  rental income and making sure you stay in high demand.
+                  Hailey joined Google in 2017 as a self-taught developer. She left in 2020 to pursue her passion of teaching the way things should be taught.
                 </p>
                 <Link href="/#">
                   <a className="btn-link with-icon gr-text-blue gr-text-7 font-weight-bold mt-11">
-                    Start my meeting{" "}
+                    Read more{" "}
                     <i className="icon icon-tail-right font-weight-bold"></i>
                   </a>
                 </Link>

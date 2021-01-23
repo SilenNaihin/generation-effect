@@ -23,6 +23,9 @@ const AboutPage = () => {
           align: "right",
           button: "account", // cta, account, null
         }}
+        footerConfig={{
+          style: "style1", //style1, style2
+        }}
       >
         <div className="inner-banner">
           <Container>

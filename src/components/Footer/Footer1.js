@@ -35,22 +35,18 @@ const Footer = () => {
                 className="footer-logo mb-11"
               />
               <p className="gr-text-11">
-                Learn and retain the knowledge required to acquire a job in the coding industry.
+                Learn and retain the knowledge required to acquire a job in the coding industry. <br></br><b>team@generationeffect.co</b>
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
                 <li className="mr-2">
-                  <Link href="/">
-                    <a className={iconClassName}>
+                    <a className={iconClassName} href="https://www.twitter.com/">
                       <i className="icon icon-logo-twitter"></i>
                     </a>
-                  </Link>
                 </li>
                 <li className="mr-2">
-                  <Link href="https://www.facebook.com/iamhaileyrene1" passHref={true}>
-                    <a className={iconClassName}>
+                    <a className={iconClassName} href="https://www.facebook.com/iamhaileyrene1">
                       <i className="icon icon-logo-facebook"></i>
                     </a>
-                  </Link>
                 </li>
               </ul>
             </Col>

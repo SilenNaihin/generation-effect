@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import imgR from "../../assets/image/conference/png/five-star-rating.png";
+// import imgR from "../../assets/image/conference/png/five-star-rating.png";
+import imgGoogle from "../../assets/image/conference/png/Google.svg";
 
 const Rating = () => {
   return (
@@ -23,18 +24,20 @@ const Rating = () => {
                   <Row className="justify-content-md-between">
                     <Col md="5">
                       <div className="single-rating mb-9">
-                        <h2 className="gr-text-2 mb-6">14</h2>
+                        <h2 className="gr-text-2 mb-6">16</h2>
                         <span className="gr-text-9 gr-text-color d-block">
-                          Learning techniques for learning and retention
+                          Techniques for learning and retention
                         </span>
                       </div>
                     </Col>
                     <Col md="5">
-                      <div className="single-rating mb-9">
-                        <h2 className="gr-text-2 mb-6">4.9</h2>
-                        <img className="mb-6" src={imgR} alt="" />
+                      <div className="single-rating mb-9"> 
+                        <img className="mb-6 google-img" src={imgGoogle} alt="" /> 
+                        {/* calc(1.5rem + 3vw) */}
+                        {/* <h2 className="gr-text-2 mb-6">4.9</h2> */}
+                        {/* <img className="mb-6" src={imgR} alt="" /> */}
                         <span className="gr-text-9 gr-text-color d-block">
-                          Highly recommended
+                          Taught by a former Google programmer
                         </span>
                       </div>
                     </Col>

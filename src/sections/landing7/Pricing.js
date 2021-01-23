@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Form } from "react-bootstrap";
+import Input from "../../components/Core/Input.js";
 
 const Pricing = () => {
   return (
     <>
+    {/* Import */}
       {/* <!-- Pricing Area --> */}
       <div className="pricing-section pt-14 pb-9 pt-lg-25 pb-lg-25 bg-default-2">
         <Container>
@@ -11,11 +13,10 @@ const Pricing = () => {
             <Col xl="6" lg="8" md="10">
               <div className="section-title text-center mb-12 mb-lg-21">
                 <h2 className="title gr-text-4 mb-6">
-                  Get started your meeting
+                  Take the step
                 </h2>
                 <p className="gr-text-8 px-lg-7 px-xl-0">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
+                  The best investments are those that compound. This is one of those investments.
                 </p>
               </div>
             </Col>
@@ -25,103 +26,67 @@ const Pricing = () => {
               {/* <!-- .pricing card --> */}
               <div className="pricing-card gr-hover-shadow-1 bg-white border rounded-10 text-center pt-10 pb-12 px-9 px-xl-15">
                 <span className="badge gr-badge text-primary gr-bg-blue-opacity-1 rounded-pill gr-text-12 text-uppercase">
-                  Basic
+                  Starter
                 </span>
                 <h2 className="price-value gr-text-3 font-weight-bold text-blackish-blue line-spacing-none mb-2 mt-8">
                   Free
                 </h2>
                 <p className="gr-text-9 mb-7 gr-color-blackish-blue-opacity-7">
-                  Use forever
+                  Intro section
                 </p>
                 <ul className="card-list list-style-border text-center pl-0 mt-9 mb-3 mx-auto">
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    01 Admin account
+                    Introductory section
                   </li>
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Upto 50 people
+                    Exclusive offers
                   </li>
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    60 Minute meeting time
+                    Weekly programming and interview tips 
                   </li>
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Audio &amp; video meeting
+                    Free foundational call
                   </li>
                 </ul>
-                <Button className="gr-hover-y w-100 mt-7 gr-text-9">
-                  Get started for free
-                </Button>
+                <Input className="w-100 mt-7">
+                </Input>
                 <span className="btn-bottom-text d-block gr-text-11 text-blackish-blue gr-opacity-7 mt-5">
-                  No credit card required
+                  No sign up required
                 </span>
               </div>
-              {/* <!-- /.pricing carde Ends--> */}
+              {/* <!-- /.pricing card Ends--> */}
             </Col>
             <Col lg="4" md="6" sm="10" className="mb-9">
               {/* <!-- .pricing card --> */}
               <div className="pricing-card gr-hover-shadow-1 bg-white border rounded-10 text-center pt-10 pb-12 px-9 px-xl-15">
                 <span className="badge gr-badge text-primary gr-bg-blue-opacity-1 rounded-pill gr-text-12 text-uppercase">
-                  Pro
+                  Full Course
                 </span>
                 <h2 className="price-value gr-text-3 font-weight-bold text-blackish-blue line-spacing-none mb-2 mt-8">
-                  $49
+                  Contact
                 </h2>
                 <p className="gr-text-9 mb-7 gr-color-blackish-blue-opacity-7">
-                  per year
+                  team@generationeffect.co
                 </p>
                 <ul className="card-list list-style-border text-center pl-0 mt-9 mb-3 mx-auto">
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    03 Admin accounts
+                    Full course: 10 unique sections
                   </li>
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Upto 150 people
+                    Interview training &amp; learning how to learn
                   </li>
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
                     Unlimited meeting time
                   </li>
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Meeting Recordings
+                    Personalized feedback
                   </li>
                   <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Audio &amp; video meeting
+                    Learn full stack programming
                   </li>
                 </ul>
                 <Button className="gr-hover-y w-100 mt-7 gr-text-9">
-                  Get started for free
-                </Button>
-              </div>
-              {/* <!-- /.pricing carde Ends--> */}
-            </Col>
-            <Col lg="4" md="6" sm="10" className="mb-9">
-              {/* <!-- .pricing card --> */}
-              <div className="pricing-card gr-hover-shadow-1 bg-white border rounded-10 text-center pt-10 pb-12 px-9 px-xl-15">
-                <span className="badge gr-badge text-primary gr-bg-blue-opacity-1 rounded-pill gr-text-12 text-uppercase">
-                  Team
-                </span>
-                <h2 className="price-value gr-text-3 font-weight-bold text-blackish-blue line-spacing-none mb-2 mt-8">
-                  $99
-                </h2>
-                <p className="gr-text-9 mb-7 gr-color-blackish-blue-opacity-7">
-                  per year
-                </p>
-                <ul className="card-list list-style-border text-center pl-0 mt-9 mb-3 mx-auto">
-                  <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    10 Admin accounts
-                  </li>
-                  <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Upto 1000 people
-                  </li>
-                  <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Unlimited meeting time
-                  </li>
-                  <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Meeting Recordings
-                  </li>
-                  <li className="text-blackish-blue gr-text-9 mb-0 py-3 d-block">
-                    Audio &amp; video meeting
-                  </li>
-                </ul>
-                <Button className="gr-hover-y w-100 mt-7 gr-text-9">
-                  Get started for free
+                  Get Started
                 </Button>
               </div>
               {/* <!-- /.pricing carde Ends--> */}

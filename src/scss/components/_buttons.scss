@@ -8,6 +8,10 @@
   // &:hover {
   //   transform: translateY(-8px);
   // }
+  &-hero{
+    background-color: $secondary;
+    color: $primary;
+  }
   &-hover-translate-none{
     &:hover {
       transform: translateY(0);

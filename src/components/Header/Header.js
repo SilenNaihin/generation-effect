@@ -244,6 +244,8 @@ const Header = () => {
             )}
 
             {gContext.header.button === "account" && (
+
+
               <div className="header-btns d-none d-xs-block  ml-auto ml-lg-3 mr-6 mr-lg-0">
                 <Link href="/signin">
                   <a className="btn-link gr-text-11 font-weight-bold gr-text-color pl-lg-8 ml-lg-2 border-lg-left mr-9 mr-lg-0">
@@ -252,7 +254,7 @@ const Header = () => {
                 </Link>
                 <Link href="/signup">
                   <a
-                    className={`btn btn-${gContext.header.variant} px-9 py-5 ml-lg-9`}
+                    className={`btn btn-${gContext.header.variant} px-9 py-5 ml-lg-9`} // variant = dark
                   >
                     Sign Up
                   </a>
