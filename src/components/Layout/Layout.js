@@ -13,7 +13,7 @@ import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
 
-import imgFavicon from "../../assets/favicon.png";
+import imgFavicon from "../../assets/favicon.svg";
 
 import { get, merge } from "lodash";
 
@@ -93,7 +93,7 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Head>
-            <title>Shade Pro</title>
+            <title>Generation Effect</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Head>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
@@ -122,7 +122,7 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Head>
-            <title>Shade Pro</title>
+            <title>Generation Effect</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Head>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"} />

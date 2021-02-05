@@ -21,7 +21,7 @@ export const menuItems = [
   },
   {
     name: "manifesto",
-    label: "Manifesto", // our commitment, Hailey dropping out
+    label: "Manifesto", 
     isExternal: false,
   },
 ];

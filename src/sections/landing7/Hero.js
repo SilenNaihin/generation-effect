@@ -20,7 +20,7 @@ const Hero = () => {
               <Col lg="6" md="8">
                 <div className="hero-content pr-xl-16 pt-18 pt-lg-31 pb-md-18 pb-lg-30 mb-9 mb-md-0">
                   <h6 className="gr-text-12 text-uppercase mb-8">
-                    The ultimate way to learn!
+                    The ultimate way to learn
                   </h6>
                   <h1 className="title gr-text-2 mb-8">Generation Effect</h1>
                   <p className="gr-text-8 mb-0">

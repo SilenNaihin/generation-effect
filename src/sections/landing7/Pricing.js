@@ -48,7 +48,7 @@ const Pricing = () => {
                     Free foundational call
                   </li>
                 </ul>
-                <Input className="w-100 mt-7">
+                <Input className="gr-hover-y w-100 mt-7 gr-hover-shadow-1">
                 </Input>
                 <span className="btn-bottom-text d-block gr-text-11 text-blackish-blue gr-opacity-7 mt-5">
                   No sign up required
@@ -85,7 +85,7 @@ const Pricing = () => {
                     Learn full stack programming
                   </li>
                 </ul>
-                <Button className="gr-hover-y w-100 mt-7 gr-text-9">
+                <Button className="gr-hover-shadow-3 gr-hover-y w-100 mt-7 gr-text-9">
                   Get Started
                 </Button>
               </div>
